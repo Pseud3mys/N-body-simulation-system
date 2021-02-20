@@ -9,7 +9,7 @@ INTERVAL = 0.01
 body1 = body_obj(masse=10**9,   position=[-1, 0],  vitesse=[0, 0.307], color=(255, 0, 0), rayon=0.1)
 body2 = body_obj(masse=10**9, position=[1, 0],  vitesse=[0, -0.307], color=(0, 255, 0), rayon=0.1)
 body3 = body_obj(masse=10**9, position=[0, 0],  vitesse=[0, 0], color=(0, 0, 255),  rayon=0.1)
-sim = body_simulation([body1, body2, body3], INTERVAL, GRAPH_LIM, line=True, erase=False)
+sim = body_simulation([body1, body2, body3], INTERVAL, GRAPH_LIM, line=True, erase=True)
 # """
 
 """
@@ -20,7 +20,7 @@ conversion = 3.6
 body1 = body_obj(masse=mass,   position=[-1, 0],  vitesse=[0.347113/conversion,0.532727/conversion], color=(255, 0, 0), rayon=0.1)
 body2 = body_obj(masse=mass, position=[1, 0],  vitesse=[0.347113/conversion,0.532727/conversion], color=(0, 255, 0), rayon=0.1)
 body3 = body_obj(masse=mass, position=[0, 0],  vitesse=[-0.694226/conversion,-1.065454/conversion], color=(0, 0, 255),  rayon=0.1)
-sim = body_simulation([body1, body2, body3], INTERVAL, GRAPH_LIM, line=True, erase=False)
+sim = body_simulation([body1, body2, body3], INTERVAL, GRAPH_LIM, line=True, erase=True)
 # """
 
 #"""
